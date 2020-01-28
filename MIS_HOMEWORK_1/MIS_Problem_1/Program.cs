@@ -10,11 +10,11 @@ namespace MIS_Problem_1
             double Ticket;
             double Price;
 
-            Console.WriteLine("What is the product name of the item you are purchassing");
+            Console.WriteLine("What is the product name of the item you are purchassing?");
             footballTicket = Console.ReadLine();
 
             Console.WriteLine("How many football ticket's do you want to buy?");
-            Ticket = Convert.ToInt32(Console.ReadLine());
+            Ticket = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("What is the price for each football ticket?");
             Price = Convert.ToDouble(Console.ReadLine());

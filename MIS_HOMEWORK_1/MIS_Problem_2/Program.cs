@@ -6,8 +6,7 @@ namespace MIS_Problem_2
     {
         static void Main(string[] args)
         {
-            
-
+           
             Console.WriteLine("What is your name?");
             string name = Console.ReadLine();
 
@@ -19,7 +18,7 @@ namespace MIS_Problem_2
 
             Console.WriteLine("What is your overall percentage grade for homework?");
             double homework = Convert.ToDouble(Console.ReadLine());
-            double homeworkGrade = 0.25 * homework;
+            double homeworkGrade = .25 * homework;
 
             Console.WriteLine("What is your overall percentage grade for participation?");
             double participation = Convert.ToDouble(Console.ReadLine());
@@ -40,8 +39,10 @@ namespace MIS_Problem_2
             
             double result = (homeworkGrade + participationGrade + quizzesGrade + midtermGrade + finalGrade)/100; 
             Console.WriteLine($" {name} {lastname}, ({StudentID}) Your final grade is: {result.ToString("P2")} ");
+
             
 
+         
         }
     }
 }
